@@ -1,5 +1,4 @@
-##!/bin/bash
+#!/bin/bash
 
 #Build image
-
-docker build -t delaxei/nodejs-application -f Dockerfile .
+docker build -t ${repository_name}/nodejs-application -f Dockerfile .

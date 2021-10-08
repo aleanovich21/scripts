@@ -1,4 +1,4 @@
-##!/bin/bash
+#!/bin/bash
 
 #Pull image from DockerHub
-docker pull delaxei/nodejs-application
+docker pull ${repository_pull_name}/nodejs-application

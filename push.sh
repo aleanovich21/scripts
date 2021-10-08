@@ -1,4 +1,4 @@
-##!/bin/bash
+#!/bin/bash
 
 #Push image to DockerHub
-docker push delaxei/nodejs-application
+docker push ${repository_push_name}/nodejs-application
